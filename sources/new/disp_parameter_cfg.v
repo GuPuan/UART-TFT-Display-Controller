@@ -1,11 +1,11 @@
-//`define Resolution_480x272 1	//时钟为9MHz
-//`define Resolution_640x480 1	//时钟为25MHz
-`define Resolution_800x480 1 //时钟为33MHz
-//`define Resolution_800x600 1	//时钟为40MHz
-//`define Resolution_1024x600 1 	//时钟为51MHz
-//`define Resolution_1024x768 1	//时钟为65MHz
-//`define Resolution_1280x720 1	//时钟为74.25MHz
-//`define Resolution_1920x1080 1	//时钟为148.5MHz	
+//`define Resolution_480x272 1	
+//`define Resolution_640x480 1	
+`define Resolution_800x480 1 
+//`define Resolution_800x600 1	
+//`define Resolution_1024x600 1 	
+//`define Resolution_1024x768 1	
+//`define Resolution_1280x720 1	
+//`define Resolution_1920x1080 1	
 
 `ifdef Resolution_480x272    
     `define H_Right_Border 0
