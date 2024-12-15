@@ -10,7 +10,7 @@ module UART_RAM_TFT_tb(
     wire [15:0]TFT_RGB;
     wire TFT_HS;
     wire TFT_VS;
-    wire TFT_BLK;     //TFT �������ź�
+    wire TFT_BLK;     
     wire TFT_CLK; 
     wire TFT_BL;
         
@@ -19,12 +19,12 @@ module UART_RAM_TFT_tb(
         .Clk(Clk),
         .Reset_n(Reset_n),
         .uart_rx(uart_rx),
-        .TFT_RGB(TFT_RGB),  //TFT�������
-        .TFT_HS(TFT_HS),    //TFT��ͬ���ź�
-        .TFT_VS(TFT_VS),    //TFT��ͬ���ź�
-        .TFT_DE(TFT_BLK),   // TFT�������ź�
+        .TFT_RGB(TFT_RGB),  
+        .TFT_HS(TFT_HS),    
+        .TFT_VS(TFT_VS),    
+        .TFT_DE(TFT_BLK),   
         .TFT_CLK(TFT_CLK),
-        .TFT_BL(TFT_BL)     //����
+        .TFT_BL(TFT_BL)     
     );
     
     initial Clk = 1;
